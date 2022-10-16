@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>socail media web app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="logo"></a>
+            <div class="search-box">
+                <img src="images/search.png" alt="search">
+                <input type="text" placeholder="Search">
+            </div>
+        </div>
+        <div class="navbar-center">
+            <ul>
+                <li><a href="#" class="active-link"><img src="images/home.png" alt="home"><span>Home</span></a></li>
+                <li><a href="#"><img src="images/network.png" alt="home"><span>My Network</span></a></li>
+                <li><a href="#"><img src="images/jobs.png" alt="home"><span>Jobs</span></a></li>
+                <li><a href="#"><img src="images/message.png" alt="home"><span>Messaging</span></a></li>
+                <li><a href="#"><img src="images/notification.png" alt="home"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <div class="navbar-right">
+            <div class="online">
+                <img src="images/user-1.png" alt="user" class="nav-profile-img" onclick="toggleMenu()">
+            </div>
+        </div>
+        <!-- ------profile drop down menu--------- -->
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="images/user-1.png" alt="">
+                    <div>
+                        <h3>Rayan Walton</h3>
+                        <a href="">See yout peofile</a>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/feedback.png" alt="">
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/setting.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/help.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/display.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="images/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar closed -->
+    <div class="container">
+        <div class="profile-main">
+            <div class="profile-container">
+                <img src="images/cover-pic.png" width="100%" alt="">
+                <div class="profile-container-inner">
+                    <img src="images/user-1.png" class="profile-pic" alt="">
+                    <h1>Rayan Walton</h1>
+                    <b>Web Developer at Microsoft | Former dveloper at Datastack and intern at Oracle</b>
+                    <p>San fransisco, United states &middot; <a href="#">Contact info</a></p>
+                    <div class="mutual-connection">
+                        <img src="images/user-2.png" alt="">
+                        <span>1 mutual connection : Prlando Diggs</span>
+                    </div>
+                    <div class="profile-btn">
+                        <a href="#" class="primary-btn"><img src="images/connect.png" alt="">Connect</a>
+                        <a href="#"><img src="images/chat.png" alt="">Message</a>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam? E
+                    x quis, magnam veniam illo neque impedit, ipsam deleniti facilis vo
+                    luptate odio qui recusandae, exercitationem corruptd ageggggggggg  ttttttttttte  etaees i eius. Maiores, dolorem placeat.
+                </p>
+                <a href="#" class="see-more-link">See more...</a>
+            </div>
+            <div class="profile-description">
+                <h2>Eperience</h2>
+                <div class="profile-desc-row">
+                    <img src="images/microsoft.png" alt="">
+                    <div>
+                        <h3>Lead Front-End Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - present &middot; 1.5 years</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque eaque maxime ratio
+                            ne natus qui facere voluptatum repudiandae eos saepe cupi
+                            ditate dolor, quidem, iure per ptionem totam animi at.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/slack.png" alt="">
+                    <div>
+                        <h3>Full stack Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - present &middot; 1.5 years</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque eaque maxime ratio
+                            ne natus qui facere voluptatum repudiandae eos saepe cupi
+                            ditate dolor, quidem, iure per ptionem totam animi at.</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/google.png" alt="">
+                    <div>
+                        <h3>Web Developer</h3>
+                        <b>Microsoft &middot; Full-time</b>
+                        <b>Feb 2021 - present &middot; 1.5 years</b>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque eaque maxime ratio
+                            ne natus qui facere voluptatum repudiandae eos saepe cupi
+                            ditate dolor, quidem, iure per ptionem totam animi at.</p>
+                    </div>
+                </div>
+                <hr>
+                <a href="#" class="experience-link">Show all 7 experiences <img src="images/right-arrow.png" alt=""></a>
+            </div>
+            <div class="profile-description">
+                <h2>Education</h2>
+                <div class="profile-desc-row">
+                    <img src="images/stanford.png" alt="">
+                    <div>
+                        <h3>Standform University</h3>
+                        <b>BSEE, Electrical Engineering</b>
+                        <b>2018 - 2022</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/north.png" alt="">
+                    <div>
+                        <h3>Northwestern University</h3>
+                        <b>Computer Science</b>
+                        <b>2015 - 2018</b>
+                        <hr>
+                    </div>
+                </div>
+                <div class="profile-desc-row">
+                    <img src="images/mit.png" alt="">
+                    <div>
+                        <h3>Harvard University</h3>
+                        <b>Senior High School</b>
+                        <b>2005 - 2015</b>
+                    </div>
+                </div>
+            </div>
+            <div class="profile-description">
+                <h2>Skills</h2>
+                <a href="#" class="skill-btn">Leadership</a>
+                <a href="#" class="skill-btn">Web Design</a>
+                <a href="#" class="skill-btn">Development</a>
+                <a href="#" class="skill-btn">Communictaion</a>
+                <a href="#" class="skill-btn">UI/UX</a>
+                <a href="#" class="skill-btn">Planning</a>
+                <a href="#" class="skill-btn">Coding</a>
+                <a href="#" class="skill-btn">Javascript</a>
+                <a href="#" class="skill-btn">Python</a>
+                <a href="#" class="skill-btn">Enterprenuorship</a>
+            </div>
+            <div class="profile-description">
+                <h2>Languages</h2>
+                <a href="#" class="language-btn">English</a>
+                <a href="#" class="language-btn">Malayalam</a>
+            </div>
+        </div>
+        <!-- ----------profile-sidebar---------- -->
+        <div class="profile-sidebar"></div>
+    </div>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+
+        function toggleMenu(){
+            profileMenu.classList.toggle("open-menu")
+        }
+    </script>
+</body>
+</html>
