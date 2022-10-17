@@ -87,7 +87,7 @@
                         <li>Your connections views <span>215</span></li>
                     </ul>
                 </div>
-                <div class="sidebar-profile-link">
+                <div class="sidebar-profile-link" id="sidebarActivity">
                     <a href="#"><img src="images/items.png" alt=""> My items</a>
                     <a href="#"><img src="images/premium.png" alt=""> My Premium</a>
                 </div>
@@ -113,6 +113,7 @@
                     </div>
                 </div>
             </div>
+            <p id="showMoreLink" onclick="toggleActivity()">Show more <b>+</b></p>
         </div>
         <!-- ----------main-side-bar----------- -->
         <div class="main-content">
@@ -380,9 +381,17 @@
 
     <script>
         let profileMenu = document.getElementById("profileMenu");
-
+        
         function toggleMenu(){
             profileMenu.classList.toggle("open-menu")
+        }
+    </script>
+    <script>
+        let sideActivity = document.getElementById("sidebarActivity");
+        let mroeLink = document.getElementById("showMoreLink");
+
+        function toggleActivity(){
+            sideActivity.classList.toggle("open-activity");
         }
     </script>
 </body>
